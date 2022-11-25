@@ -1,0 +1,47 @@
+$accentColor = #4569d4
+
+$colorPicker = {
+  yellow: #ffc832,
+  green: #3eaf7c,
+  pink: #c74350
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/font/JetBrainsMono-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#main-title::before {
+  font-family: "iconfont" !important;
+  content: "\e601";
+}
+
+body {
+  font-family: "Inter";
+}
+
+code {
+  font-family: "JetBrains Mono";
+  font-variant-ligatures: none;
+}
+
+body:not(.theme-dark), body.theme-light
+  code[class*='language-'], pre[class*='language-']
+    color black
+    background none
+    font-family "JetBrains Mono"
+    font-variant-ligatures none
+
+td {
+  text-align: center;
+}
+td>img.black {
+  background-color: #000;
+  padding: 0.3em
+}
+td>img.cassandra {
+  background-color: #18738f;
+  padding: 0.3em
+}

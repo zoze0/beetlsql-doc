@@ -1,0 +1,17 @@
+{
+  "name": "beetlsql-doc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-theme-hope": "^1.20.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --no-cache",
+    "docs:eject-theme": "vuepress eject-hope docs"
+  }
+}
